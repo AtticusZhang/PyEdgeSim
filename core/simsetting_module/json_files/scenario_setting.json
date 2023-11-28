@@ -1,0 +1,120 @@
+{
+    "n_device": 3,
+
+    "device_name_list": ["D1", "D2", "D3"],
+
+    "D1": {
+        "device_name": "D1"
+    },
+    "D2": {
+        "device_name": "D2"
+    },
+    "D3": {
+        "device_name": "D3"
+    },
+
+    "n_edge": 2,
+
+    "edge_name_list": ["E1", "E2"],
+
+    "E1": {
+        "edge_name": "E1",
+        "cpu_frequency": 1,
+        "max_mem": 3,
+        "deployed_app": ["A1", "A2"],
+        "tasks": {
+            "A1": [
+                {
+                    "generate_time": 0,
+                    "app_type": "A1",
+                    "task_id": 1,
+                    "slice_id": 2,
+                    "gen_device": "D1",
+                    "transfer_data_size": 1,
+                    "process_data_size": 1
+                },
+                {
+                    "generate_time": 0,
+                    "app_type": "A1",
+                    "task_id": 1,
+                    "slice_id": 1,
+                    "gen_device": "D1",
+                    "transfer_data_size": 1,
+                    "process_data_size": 1
+                }
+            ]
+        }
+    },
+    "E2": {
+        "edge_name": "E2",
+        "cpu_frequency": 1,
+        "max_mem": 3,
+        "deployed_app": ["A2"],
+        "tasks": {
+            "A2": [
+                {
+                    "generate_time": 0,
+                    "app_type": "A2",
+                    "task_id": 2,
+                    "slice_id": 6,
+                    "gen_device": "D1",
+                    "transfer_data_size": 1,
+                    "process_data_size": 1
+                },
+                {
+                    "generate_time": 0,
+                    "app_type": "A2",
+                    "task_id": 2,
+                    "slice_id": 5,
+                    "gen_device": "D1",
+                    "transfer_data_size": 1,
+                    "process_data_size": 1
+                },
+                {
+                    "generate_time": 0,
+                    "app_type": "A2",
+                    "task_id": 2,
+                    "slice_id": 4,
+                    "gen_device": "D1",
+                    "transfer_data_size": 1,
+                    "process_data_size": 1
+                },
+                {
+                    "generate_time": 0,
+                    "app_type": "A2",
+                    "task_id": 2,
+                    "slice_id": 3,
+                    "gen_device": "D1",
+                    "transfer_data_size": 1,
+                    "process_data_size": 1
+                },
+                {
+                    "generate_time": 0,
+                    "app_type": "A2",
+                    "task_id": 2,
+                    "slice_id": 2,
+                    "gen_device": "D1",
+                    "transfer_data_size": 1,
+                    "process_data_size": 1
+                },
+                {
+                    "generate_time": 0,
+                    "app_type": "A2",
+                    "task_id": 2,
+                    "slice_id": 1,
+                    "gen_device": "D1",
+                    "transfer_data_size": 1,
+                    "process_data_size": 1
+                }
+            ]
+        }
+    },
+
+    "n_schedule_link": 1,
+
+    "SL1": {
+        "edge_names": ["E1", "E2"],
+        "transfer_rate": 10
+    }
+}
+

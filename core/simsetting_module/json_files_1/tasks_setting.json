@@ -1,0 +1,54 @@
+{
+    "n_time": 10,
+
+    "n_app": 10,
+
+    "n_task": 20,
+
+    "transfer_data_size": 1,
+
+    "process_data_size": 1,
+
+    "A1": {
+        "app_deploy_cost": 1,
+        "mem_occupation": 1
+    },
+    "A2": {
+        "app_deploy_cost": 1,
+        "mem_occupation": 1
+    },
+
+    "A3": {
+        "app_deploy_cost": 1,
+        "mem_occupation": 1
+    },
+    "A4": {
+        "app_deploy_cost": 1,
+        "mem_occupation": 1
+    },
+    "A5": {
+        "app_deploy_cost": 1,
+        "mem_occupation": 1
+    },
+    "A6": {
+        "app_deploy_cost": 1,
+        "mem_occupation": 1
+    },
+    "A7": {
+        "app_deploy_cost": 1,
+        "mem_occupation": 1
+    },
+
+    "A8": {
+        "app_deploy_cost": 1,
+        "mem_occupation": 1
+    },
+    "A9": {
+        "app_deploy_cost": 1,
+        "mem_occupation": 1
+    },
+    "A10": {
+        "app_deploy_cost": 1,
+        "mem_occupation": 1
+    }
+}

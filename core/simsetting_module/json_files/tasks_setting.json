@@ -1,0 +1,97 @@
+{
+    "n_time": 10,
+
+    "n_app": 2,
+
+    "app_type": ["A1", "A2"],
+
+    "A1": {
+        "app_deploy_cost": 1,
+        "mem_occupation": 1
+    },
+    "A2": {
+        "app_deploy_cost": 1,
+        "mem_occupation": 1
+    },
+
+    "n_task": 8,
+
+    "generate_probability": [0.25, 0.5, 1],
+
+    "transfer_data_size": 1,
+
+    "process_data_size": 1,
+
+    "task1": {
+        "generate_time": 0,
+        "task_id": 3,
+        "slice_id": 1,
+        "app_type": "A1",
+        "gen_device": "D1",
+        "transfer_data_size": 1,
+        "process_data_size": 1
+    },
+    "task2": {
+        "generate_time": 0,
+        "task_id": 3,
+        "slice_id": 2,
+        "app_type": "A1",
+        "gen_device": "D1",
+        "transfer_data_size": 1,
+        "process_data_size": 1
+    },
+    "task3": {
+        "generate_time": 0,
+        "task_id": 4,
+        "slice_id": 1,
+        "app_type": "A2",
+        "gen_device": "D3",
+        "transfer_data_size": 1,
+        "process_data_size": 1
+    },
+    "task4": {
+        "generate_time": 0,
+        "task_id": 4,
+        "slice_id": 2,
+        "app_type": "A2",
+        "gen_device": "D3",
+        "transfer_data_size": 1,
+        "process_data_size": 1
+    },
+    "task5": {
+        "generate_time": 0,
+        "task_id": 4,
+        "slice_id": 3,
+        "app_type": "A2",
+        "gen_device": "D3",
+        "transfer_data_size": 1,
+        "process_data_size": 1
+    },
+    "task6": {
+        "generate_time": 0,
+        "task_id": 4,
+        "slice_id": 4,
+        "app_type": "A2",
+        "gen_device": "D3",
+        "transfer_data_size": 1,
+        "process_data_size": 1
+    },
+    "task7": {
+        "generate_time": 0,
+        "task_id": 4,
+        "slice_id": 5,
+        "app_type": "A2",
+        "gen_device": "D3",
+        "transfer_data_size": 1,
+        "process_data_size": 1
+    },
+    "task8": {
+        "generate_time": 0,
+        "task_id": 4,
+        "slice_id": 6,
+        "app_type": "A2",
+        "gen_device": "D3",
+        "transfer_data_size": 1,
+        "process_data_size": 1
+    }
+}

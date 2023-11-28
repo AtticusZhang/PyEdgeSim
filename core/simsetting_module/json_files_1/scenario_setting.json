@@ -1,0 +1,66 @@
+{
+    "n_device": 4,
+
+    "n_edge": 3,
+
+    "E1": {
+        "edge_name": "E1",
+        "location": [0, 0],
+        "cpu_frequency": 1,
+        "max_mem": 3,
+        "deployed_app": ["A1", "A3"],
+        "tasks": {}
+    },
+    "E2": {
+        "edge_name": "E2",
+        "location": [1000, 1000],
+        "cpu_frequency": 1,
+        "max_mem": 3,
+        "deployed_app": ["A2"],
+        "tasks": {}
+    },
+    "E3": {
+        "edge_name": "E3",
+        "location": [0, 1000],
+        "cpu_frequency": 1,
+        "max_mem": 3,
+        "deployed_app": ["A1", "A2"],
+        "tasks": {}
+    },
+    "E4": {
+        "edge_name": "E4",
+        "location": [1000, 0],
+        "cpu_frequency": 1,
+        "max_mem": 3,
+        "deployed_app": ["A2"],
+        "tasks": {}
+    },
+
+    "n_schedule_link": 3,
+
+    "SL1": {
+        "edge_names": ["E1", "E2"],
+        "transfer_rate": 10
+    },
+    "SL2": {
+        "edge_names": ["E1", "E3"],
+        "transfer_rate": 10
+    },
+    "SL3": {
+        "edge_names": ["E2", "E3"],
+        "transfer_rate": 10
+    },
+    "SL4": {
+        "edge_names": ["E1", "E4"],
+        "transfer_rate": 10
+    },
+    "SL5": {
+        "edge_names": ["E2", "E4"],
+        "transfer_rate": 10
+    },
+    "SL6": {
+        "edge_names": ["E3", "E4"],
+        "transfer_rate": 10
+    }
+}
+
