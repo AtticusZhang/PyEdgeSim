@@ -129,4 +129,3 @@ def obj_rule(model):
     obj += model.beta * queue_remain + (1 - model.beta) * sum_cost
 
     return obj
-

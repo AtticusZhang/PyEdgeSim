@@ -17,6 +17,7 @@ from core.scenario_module.scenario import Scenario
 from core.env_module.environment import Env
 # from core.decision_module.ec_model import ECModel
 from core.decision_module.ec_model_without_schedule import ECModel
+# from core.decision_module.ec_schedul_model import ECModel
 from core.task_generator_module.applications import Applications
 from core.simsetting_module.simsetting import simSetting, DEVICE_NAMES, EDGE_NAMES, APP_TYPES, ItoAmap
 

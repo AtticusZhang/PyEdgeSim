@@ -51,11 +51,12 @@ def main():
     # print(orc.get_edge_deployed_info_for_model())
     save_data_to_excel(simulation_data)
 
+
 def save_data_to_excel(data):
     current_time = datetime.now()
     formatted_time = current_time.strftime("%d_%H-%M-%S")
     file_name = f"data_without_schedule_{formatted_time}.xlsx"
-    xls_path =  f"./output/{file_name}"
+    xls_path = f"./output/{file_name}"
     excel_writer = pd.ExcelWriter(xls_path)
 
     max_length = max([len(lis) for key, lis in data.items()])
@@ -65,7 +66,6 @@ def save_data_to_excel(data):
     data_pd = pd.DataFrame(data)
     data_pd.to_excel(excel_writer, index=True)
 
-    excel_writer.save()
     excel_writer.close()
 
 

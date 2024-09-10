@@ -7,8 +7,9 @@
 import json
 import os
 
-# json_files_path = "D:/BaiduSyncdisk/PythonCodeset/PyEdgeSim/core/simsetting_module/json_files_1"
-json_files_path = "H:\\BaiduSyncdisk\\PythonCodeset\\PyEdgeSim\\core\\simsetting_module\\json_files_1"
+current_file_path = os.path.abspath(__file__)
+current_dir = os.path.dirname(current_file_path)
+json_files_path = os.path.join(current_dir, 'json_files_1')
 
 
 def read_json_file(json_path):
